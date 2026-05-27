@@ -1,5 +1,5 @@
 HOST = "https://lichess.org"
-LICHESS_API_KEY = "PASTE_YOUR_ACTUAL_LICHESS_TOKEN_HERE"
+LICHESS_API_KEY = "lip_sFV84xtP1PED3upDYp0Y"
 ADMINS = ["the-international-bullet-league"]
 TEAMS_WHITELIST = ["the-international-bullet-league"]
 
