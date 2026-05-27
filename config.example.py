@@ -1,13 +1,51 @@
 HOST = "https://lichess.org"
 LICHESS_API_KEY = ""
 ADMINS = ["lichess"]
-TEAMS_WHITELIST = [
-    "lichess-antichess",
-    "lichess-chess960",
-    "lichess-king-of-the-hill",
-    "lichess-three-check",
-    "lichess-atomic",
-    "lichess-horde",
-    "lichess-racing-kings",
-    "lichess-crazyhouse",
+TEAMS_WHITELIST = ["the-international-bullet-league"]
+
+TOURNAMENTS = [
+    {
+        "name": "International Bullet Arena",
+        "clockTime": 1,
+        "clockIncrement": 0,
+        "minutes": 360,
+        "variant": "standard",
+        "schedule": "0 0 * * *",
+        "team": "the-international-bullet-league",
+        "daysInAdvance": 1,
+        "startTime": "06:00"
+    },
+    {
+        "name": "International Bullet Arena",
+        "clockTime": 1,
+        "clockIncrement": 0,
+        "minutes": 360,
+        "variant": "standard",
+        "schedule": "0 0 * * *",
+        "team": "the-international-bullet-league",
+        "daysInAdvance": 1,
+        "startTime": "12:00"
+    },
+    {
+        "name": "International Bullet Arena",
+        "clockTime": 1,
+        "clockIncrement": 0,
+        "minutes": 360,
+        "variant": "standard",
+        "schedule": "0 0 * * *",
+        "team": "the-international-bullet-league",
+        "daysInAdvance": 1,
+        "startTime": "18:00"
+    },
+    {
+        "name": "International Bullet Arena",
+        "clockTime": 1,
+        "clockIncrement": 0,
+        "minutes": 360,
+        "variant": "standard",
+        "schedule": "0 0 * * *",
+        "team": "the-international-bullet-league",
+        "daysInAdvance": 1,
+        "startTime": "24:00"
+    }
 ]
