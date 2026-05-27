@@ -1,6 +1,6 @@
 HOST = "https://lichess.org"
 LICHESS_API_KEY = ""
-ADMINS = ["lichess"]
+ADMINS = ["the-international-bullet-league"]
 TEAMS_WHITELIST = ["the-international-bullet-league"]
 
 TOURNAMENTS = [
@@ -11,9 +11,7 @@ TOURNAMENTS = [
         "minutes": 360,
         "variant": "standard",
         "schedule": "0 0 * * *",
-        "team": "the-international-bullet-league",
-        "daysInAdvance": 1,
-        "startTime": "06:00"
+        "team": "the-international-bullet-league"
     },
     {
         "name": "International Bullet Arena",
@@ -21,10 +19,8 @@ TOURNAMENTS = [
         "clockIncrement": 0,
         "minutes": 360,
         "variant": "standard",
-        "schedule": "0 0 * * *",
-        "team": "the-international-bullet-league",
-        "daysInAdvance": 1,
-        "startTime": "12:00"
+        "schedule": "0 6 * * *",
+        "team": "the-international-bullet-league"
     },
     {
         "name": "International Bullet Arena",
@@ -32,10 +28,8 @@ TOURNAMENTS = [
         "clockIncrement": 0,
         "minutes": 360,
         "variant": "standard",
-        "schedule": "0 0 * * *",
-        "team": "the-international-bullet-league",
-        "daysInAdvance": 1,
-        "startTime": "18:00"
+        "schedule": "0 12 * * *",
+        "team": "the-international-bullet-league"
     },
     {
         "name": "International Bullet Arena",
@@ -43,9 +37,7 @@ TOURNAMENTS = [
         "clockIncrement": 0,
         "minutes": 360,
         "variant": "standard",
-        "schedule": "0 0 * * *",
-        "team": "the-international-bullet-league",
-        "daysInAdvance": 1,
-        "startTime": "24:00"
+        "schedule": "0 18 * * *",
+        "team": "the-international-bullet-league"
     }
 ]
